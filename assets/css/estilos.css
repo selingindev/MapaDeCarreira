@@ -1,0 +1,37 @@
+:root {
+    --color-primario: #336699;
+    --color-secundario: #11c86f;
+    --color-terciario: #ffff00;
+    --color-texto: #333333;
+    --color-fondo: #fff;
+}
+
+.tema-claro {
+    background: #336699;
+}
+
+.tema-escuro {
+    background: var(--color-texto);
+}
+
+.tema-escuro .resume-header {
+    background: var(--color-texto);
+}
+.name {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.tema-escuro .name {
+    color: #ffff00 !important;
+}
+
+.tema-escuro .name {
+    color: #11c86f;
+}
+
+@media (max-width: 768px) {
+    .name {
+        text-align: center;
+    }
+}
+
