@@ -35,3 +35,23 @@
     }
 }
 
+@media screen and (min-width: 768px), (max-width: 916px)  {
+   
+    .resume-social {
+        display: flex;
+        width: 100%;
+    }
+    .resume-social li{
+        margin-right: 0.5rem;
+        font-size: 1rem;
+    }
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+    .contact li{
+        text-align: center;
+        justify-content:center;
+    }
+}
+

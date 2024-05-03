@@ -7932,7 +7932,7 @@ textarea.form-control-lg {
 }
 
 .p-4 {
-  padding: 1.5rem !important;
+  padding: 0.5rem !important;
 }
 
 .p-5 {
@@ -11940,3 +11940,5 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
   background-color: rgba(var(--bs-white-rgb), var(--bs-bg-opacity));
   margin: 2em auto;
 }
+
+
